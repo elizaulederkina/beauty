@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Julius+Sans+One&display=swap');
+*{
+    font-family: 'Comfortaa';
+}
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #5c5b5b;
+}
+body{
+    background: #F4EEE5;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.image-container {
+    position: relative;
+ }
+ 
+.image-container img {
+    max-width: 100%;
+    height: auto;
+ }
+ 
+.text-overlay {
+    position: absolute;
+    bottom: 80px;
+    left: 460px;
+    padding: 10px;
+    color: #000;
+    font-size: 900%;
+ }
+ /*section start*/
+ .section {
+    padding: 110px 0;
+ }
+ .catalog-nav{
+    display: flex;
+    justify-content: center;
+ }
+ .catalog-nav_wrapper{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+
+ }
+ .catalog-nav_btn{
+    padding: 95;
+    border:0;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 35px;
+    font-size: 150%;
+  
+}
+.catalog-nav_btn:hover{
+    background:#b5d24b ;
+    color:beige;
+    border-right-color: #b5d24b;
+}
+.section_header{
+    margin-bottom: 90px;
+}
+.catalog{
+display: flex;
+flex-wrap: wrap;
+ }
+ .catalog_item{
+    width: calc(100%/4);
+    margin-bottom: 90px;
+ }
+ .product_img{
+    display: block;
+    margin:0 auto 15px;
+ }
+
+ .catalog-nav__btn.is-active {
+    background: #b5d24b;
+    color: beige;
+    border-color: #b5d24b;
+  }
+  
+  
+  .catalog-nav__item:last-of-type .catalog-nav__btn {
+    border-right: 0;
+  }
+ /*конец*/
+ .footer{
+    background: #ffffff;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    position: relative;
+ }
+ .logo-text{
+    font-size:200%;
+    padding-top: 50px;
+ }
+ .links{
+    font-size:160%;
+ }
+ .contact-form{
+    font-size:110%;
+ }
+ .contact-form h3{
+    font-size:140%;
+    padding-top: 20px;
+ }
+ .footer .links ul a{
+   display: block;
+   transition: all .3s;
+ }
+ .footer .links ul a:hover{
+   margin-left: 15px;
+   transition: all .3s;
+ }

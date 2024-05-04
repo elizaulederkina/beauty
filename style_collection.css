@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Julius+Sans+One&display=swap');
+*{
+    font-family: 'Comfortaa';
+}
+html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #100e0e;
+}
+body{
+    background: #F4EEE5;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/*шапка*/
+ .container-fluid .container .row-1{
+    background: #8d9a2f;
+    border-bottom: 4px solid rgb(66, 56, 10);
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    opacity: 0.4;
+ }
+
+ .title{
+    font-family: 'ulius Sans One';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+   /* margin-top: px;*/
+    font-size:600%;
+    Letter-spacing: 3px;
+ }
+ /*публикации*/
+ 
+
+.img{
+
+        position: relative;
+        opacity: 0.4;
+        padding-top: 10px;
+   
+ }
+ .tekst_sverhu_kartinki h2{
+    text-shadow: 2px 2px 2px black;
+        position: absolute;
+        font-size:300%;
+        top: 170px;     
+        left: 65px;      
+        color: rgb(123, 91, 21);    
+        width: 350px;
+        padding: 10px;    
+        text-align: center;      
+}
+.tekst_sverhu_kartinki p{
+            position: absolute;
+       
+   
+            font-size:200%;
+            top: 220px;     
+            left: 65px;       
+            padding: 10px;    
+            text-align: left; 
+}
+ .tekst_sverhu_kartinki-1 h2{
+    position: absolute;
+    text-shadow: 2px 2px 2px black;
+    font-size:300%;
+    top: 670px;     
+    left: 765px;      
+    color: rgb(123, 91, 21);    
+    width: 350px;
+    padding: 10px;    
+    text-align: center;   
+ }
+ .tekst_sverhu_kartinki-1 p{
+    position: absolute;
+    font-size:200%;
+    top: 727px;     
+    left: 265px;       
+    padding: 10px;    
+    text-align: left; 
+ }
+.tekst_sverhu_kartinki-2 h2{
+position: absolute;
+text-shadow: 2px 2px 2px black;
+font-size:300%;
+top: 1190px;     
+left: 55px;      
+color: rgb(123, 91, 21);    
+
+padding: 10px;    
+text-align: center;   
+}
+.tekst_sverhu_kartinki-2 p{
+position: absolute;
+font-size:200%;
+top: 1290px;     
+left: 55px;       
+padding: 10px;    
+text-align: left; 
+}
+.tekst_sverhu_kartinki-3 h2{
+    position: absolute;
+    text-shadow: 2px 2px 2px black;
+    font-size:300%;
+    top: 1690px;     
+    left: 790px;      
+    color: rgb(123, 91, 21);    
+    
+    padding: 10px;    
+    text-align: center;   
+    }
+    .tekst_sverhu_kartinki-3 p{
+    position: absolute;
+    font-size:200%;
+    top: 1780px;     
+    left: 55px;       
+    padding: 10px;    
+    text-align: left; 
+    }
+ /*конец*/
+ .footer{
+    background: #ffffff;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    position: relative;
+ }
+ .logo-text{
+    font-size:200%;
+    padding-top: 50px;
+ }
+ .links{
+    font-size:160%;
+ }
+ .contact-form{
+    font-size:110%;
+ }
+ .contact-form h3{
+    font-size:140%;
+    padding-top: 20px;
+ }
+ .footer .links ul a{
+   display: block;
+   transition: all .3s;
+ }
+ .footer .links ul a:hover{
+   margin-left: 15px;
+   transition: all .3s;
+ }
